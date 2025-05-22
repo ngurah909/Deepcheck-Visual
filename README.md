@@ -22,18 +22,14 @@ The model was trained using TensorFlow and expects RGB images resized to 224x224
 
 ## 📁 Directory Structure
 Deepcheck-Visual/
-│
 ├── Assets/
-│ ├── Model/
-│ │ └── mobilenetv2.h5 # Trained MobileNetV2 model
-│ └── Test/ # Test images for evaluation
-│
-├── app.py # Main Streamlit app
-└── README.md # Project description
-
+│   ├── Model/
+│   │   └── mobilenetv2.h5          # Trained MobileNetV2 model
+│   └── Test/                       # Test images for evaluation
+├── app.py                          # Main Streamlit app
+└── README.md                       # Project description
 
 ## 🧰 Installation
-
 1. Clone this repository:
 git clone https://github.com/ngurah909/Deepcheck-Visual.git
 
@@ -44,6 +40,6 @@ pip install -r requirements.txt
 streamlit run app.py
 
 💡 Usage Notes
-Place your trained model in Assets/Model/mobilenetv2.h5
-Add your test images in Assets/Test/ for testing from the dataset tab
-Upload any image via the "Upload Image" tab to classify it
+- Place your trained model in Assets/Model/mobilenetv2.h5
+- Add your test images in Assets/Test/ for testing from the dataset tab
+- Upload any image via the "Upload Image" tab to classify it
