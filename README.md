@@ -21,6 +21,7 @@ The app uses a **MobileNetV2** model trained to detect and classify images as:
 The model was trained using TensorFlow and expects RGB images resized to 224x224 pixels.
 
 ## 📁 Directory Structure
+```
 Deepcheck-Visual/
 ├── Assets/
 │   ├── Model/
@@ -28,6 +29,7 @@ Deepcheck-Visual/
 │   └── Test/                       # Test images for evaluation
 ├── app.py                          # Main Streamlit app
 └── README.md                       # Project description
+```
 
 ## 🧰 Installation
 1. Clone this repository:
