@@ -31,15 +31,30 @@ Deepcheck-Visual/
 └── README.md                       # Project description
 ```
 
-## 🧰 Installation
-1. Clone this repository:
+## 🚀 Getting Started
+
+Follow these steps to set up and run the DeepCheck Visual application locally:
+
+### 1. Clone the Repository
+
+```bash
 git clone https://github.com/ngurah909/Deepcheck-Visual.git
+cd Deepcheck-Visual
+```
 
-2. Install the required dependencies:
+### 2. Install Dependencies
+
+Make sure you have Python 3.7+ installed. Then install the required Python packages:
+
+```bash
 pip install -r requirements.txt
+```
 
-3. Run the Streamlit app:
+### 3. Run the Streamlit App
+
+```bash
 streamlit run app.py
+```
 
 💡 Usage Notes
 - Place your trained model in Assets/Model/mobilenetv2.h5
