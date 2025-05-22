@@ -12,12 +12,12 @@ st.set_page_config(page_title="DeepCheck Visual", layout="wide")
 IMG_SIZE = (224, 224)
 CLASS_MAP = {0: 'Fake', 1: 'Real'}
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATASET_PATH = os.path.join(BASE_DIR, "Assets\Test")
+DATASET_PATH = os.path.join(BASE_DIR, "Assets/Test")
 
 # Load model
 @st.cache_resource
 def load_model():
-    return tf.keras.models.load_model("Assets\Model\mobilenetv2.h5")
+    return tf.keras.models.load_model("Assets/Model/mobilenetv2.h5")
 
 model = load_model()
 
