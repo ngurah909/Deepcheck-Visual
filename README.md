@@ -2,6 +2,11 @@
 
 **DeepCheck Visual** is a web-based tool built with **Streamlit** that utilizes a deep learning model (MobileNetV2) to classify images as either **Fake** or **Real**. It provides a simple and interactive interface for both casual users and researchers to analyze image authenticity through deep learning.
 
+## 🌐 Live Demo
+
+Try the app online here:  
+[https://deepcheck-visual.streamlit.app/](https://deepcheck-visual.streamlit.app/)
+
 ## 🚀 Features
 
 - 📤 Upload and classify your own images (JPG, PNG)
