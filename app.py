@@ -17,7 +17,7 @@ DATASET_PATH = os.path.join(BASE_DIR, "Assets/Test")
 # Load model
 @st.cache_resource
 def load_model():
-    return tf.keras.models.load_model("Assets/Model/mobilenetv2.h5")
+    return tf.keras.models.load_model("Assets\Model\MobileNetV2.h5")
 
 model = load_model()
 
