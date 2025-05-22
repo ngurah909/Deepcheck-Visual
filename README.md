@@ -60,8 +60,3 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
-
-💡 Usage Notes
-- Place your trained model in Assets/Model/mobilenetv2.h5
-- Add your test images in Assets/Test/ for testing from the dataset tab
-- Upload any image via the "Upload Image" tab to classify it
